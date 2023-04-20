@@ -2,7 +2,7 @@ import React from "react";
 
 const Social = () => {
   return (
-    <div className="home_social">
+    <div className="home__social">
       <a
         href="http://www.instagram.com"
         className="home__social-icon"
