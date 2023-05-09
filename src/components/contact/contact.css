@@ -3,7 +3,6 @@
   justify-content: center;
   column-gap: 6rem;
   padding-bottom: 3rem;
-  
 }
 
 .contact__title {
@@ -30,6 +29,9 @@
   font-size: 2rem;
   color: var(--title-color);
   margin-bottom: var(-mb-0-25);
+}
+.contact__content {
+  width: 300px;
 }
 
 .contact__card-title,
@@ -117,20 +119,28 @@
   .contact__container {
     grid-template-columns: 1fr;
     row-gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .contact__info {
     justify-content: center;
-  }
-  .contact__form {
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 576px) {
   .contact__info {
     grid-template-columns: 1fr;
-  }
 
+    justify-content: center;
+  }
+  .contact__container {
+    margin: 0 auto;
+  }
+  .contact__info {
+    justify-content: center;
+  }
   .contact__form {
     width: 100%;
   }
