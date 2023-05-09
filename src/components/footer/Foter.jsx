@@ -5,7 +5,7 @@ const Foter = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Smith</h1>
+        <h1 className="footer__title">Patryk</h1>
         <ul className="footer__list">
           <li>
             <a href="#about" className="footer__link">
@@ -21,24 +21,21 @@ const Foter = () => {
 
         <div className="footer__social">
           <a
-            href="http://www.facebook.com"
+            href="https://www.linkedin.com/in/patryk-kardach-686804242/"
             className="footer__social-link"
-            target="_blank"
-          >
-            <i class="bx bxl-facebook"></i>
+            target="_blank">
+            <i class="bx bxl-linkedin"></i>
           </a>
           <a
-            href="http://www.instagram.com"
+            href="https://github.com/patryk77k?tab=repositories"
             className="footer__social-link"
-            target="_blank"
-          >
-            <i class="bx bxl-instagram"></i>
+            target="_blank">
+            <i class="bx bxl-github"></i>
           </a>
           <a
-            href="http://www.twitter.com"
+            href="https://twitter.com/PatKar94"
             className="footer__social-link"
-            target="_blank"
-          >
+            target="_blank">
             <i class="bx bxl-twitter"></i>
           </a>
         </div>
