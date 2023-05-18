@@ -97,7 +97,7 @@ const Contact = () => {
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"></textarea>
+                placeholder="Write your messsage"></textarea>
             </div>
             <button className="button button--flex">
               Send Message
