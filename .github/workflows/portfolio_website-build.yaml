@@ -37,7 +37,7 @@ jobs:
           CI: true
           SITE_URL: ${{ inputs.site-url }}
         run: |
-          npm start
+          npm ci
           npm run build
 
 # Please do not touch the following action
@@ -46,7 +46,7 @@ jobs:
         with:
           api-key: ${{ secrets.IONOS_API_KEY }}
           service-host: api-eu.ionos.space
-          project-id: e404b821-a02b-464a-9de1-9adc4b40eb96
+          project-id: f20771fe-4634-4bff-b320-7c7799c6be9c
           branch-id: ${{ inputs.branch-id }}
           version: ${{ github.sha }}
           folder: ${{ env.DEPLOYMENT_FOLDER }}
