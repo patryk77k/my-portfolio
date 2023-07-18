@@ -3,6 +3,7 @@ import Work1 from "../../assets/work1.jpg";
 import admin_panel from "../../assets/admin_panel.png";
 import breakpoint from "../../assets/breakpoint.png";
 import weather from "../../assets/weather.png";
+import memory_game from "../../assets/memory-game.png";
 
 export const projectsData = [
   // {
@@ -41,6 +42,13 @@ export const projectsData = [
     id: 6,
     image: breakpoint,
     title: "Breakpoint",
+    category: "APP",
+    href: "https://merry-gingersnap-551c99.netlify.app/",
+  },
+  {
+    id: 8,
+    image: memory_game,
+    title: "Memory Game",
     category: "APP",
     href: "https://merry-gingersnap-551c99.netlify.app/",
   },
