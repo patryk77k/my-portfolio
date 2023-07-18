@@ -1,9 +1,8 @@
 import _default from "emailjs-com";
 import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.png";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.png";
-import Work5 from "../../assets/work5.jpg";
+import admin_panel from "../../assets/admin_panel.png";
+import breakpoint from "../../assets/breakpoint.png";
+import weather from "../../assets/weather.png";
 
 export const projectsData = [
   // {
@@ -14,8 +13,8 @@ export const projectsData = [
   // },
   {
     id: 2,
-    image: Work2,
-    title: "App",
+    image: admin_panel,
+    title: "Admin Panel",
     category: "APP",
     href: "https://admin-panel-rfni.onrender.com/",
   },
@@ -27,8 +26,8 @@ export const projectsData = [
   // },
   {
     id: 4,
-    image: Work4,
-    title: "App",
+    image: weather,
+    title: "Weather App",
     category: "APP",
     href: "https://main--dazzling-zabaione-ad81f4.netlify.app/",
   },
@@ -38,6 +37,13 @@ export const projectsData = [
   //   title: "Web design",
   //   category: "MERN",
   // },
+  {
+    id: 6,
+    image: breakpoint,
+    title: "Breakpoint",
+    category: "APP",
+    href: "https://merry-gingersnap-551c99.netlify.app/",
+  },
 ];
 export const projectsNav = [
   { name: "ALL" },
