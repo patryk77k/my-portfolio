@@ -50,7 +50,7 @@ export const projectsData = [
     image: memory_game,
     title: "Memory Game",
     category: "APP",
-    href: "https://merry-gingersnap-551c99.netlify.app/",
+    href: "https://marvelous-dragon-a08229.netlify.app/",
   },
 ];
 export const projectsNav = [
