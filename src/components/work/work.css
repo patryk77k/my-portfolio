@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   column-gap: 0.75rem;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 
 .work__item {
@@ -26,14 +26,16 @@
   justify-content: center;
 }
 .work__card {
+  
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 1.25rem;
+  padding:3.25rem;
   border-radius: 1rem;
 }
 
 .work__img {
-  width: 295px;
+  
+  width: 195px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);
 }
@@ -41,7 +43,7 @@
 .work__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: var(--mb-0-8);
 }
 
 .work__button {

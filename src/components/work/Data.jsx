@@ -1,17 +1,16 @@
-import _default from "emailjs-com";
-import Work1 from "../../assets/work1.jpg";
-import admin_panel from "../../assets/admin_panel.png";
-import breakpoint from "../../assets/breakpoint.png";
-import weather from "../../assets/weather.png";
-import memory_game from "../../assets/memory-game.png";
+import admin_panel from "../../assets/administrator.png";
+import breakpoint from "../../assets/game-boy.png";
+import weather from "../../assets/regenschirm (1).png";
+import memory_game from "../../assets/memory-spiel.png";
+import management_site from "../../assets/project-management.png"
 
 export const projectsData = [
-  // {
-  //   id: 1,
-  //   image: Work1,
-  //   title: "Web design",
-  //   category: "web",
-  // },
+  {
+    id: 1,
+    image: management_site,
+    title: "Management Site",
+    category: "APP",
+  },
   {
     id: 2,
     image: admin_panel,
