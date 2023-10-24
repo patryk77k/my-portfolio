@@ -10,6 +10,8 @@ export const projectsData = [
     image: management_site,
     title: "Management Site",
     category: "APP",
+    href: "https://managementsite-c1e80.web.app/",
+    href_git: "https://github.com/patryk77k/ManagementSite"
   },
   {
     id: 2,
@@ -17,6 +19,8 @@ export const projectsData = [
     title: "Admin Panel",
     category: "APP",
     href: "https://admin-panel-rfni.onrender.com/",
+    href_git: "https://github.com/patryk77k/admin-panel"
+    
   },
   // {
   //   id: 3,
@@ -30,6 +34,7 @@ export const projectsData = [
     title: "Weather App",
     category: "APP",
     href: "https://main--dazzling-zabaione-ad81f4.netlify.app/",
+    href_git: "https://github.com/patryk77k/weather-app"
   },
   // {
   //   id: 5,
@@ -37,19 +42,22 @@ export const projectsData = [
   //   title: "Web design",
   //   category: "MERN",
   // },
+  
   {
     id: 6,
+    image: memory_game,
+    title: "Memory Game",
+    category: "APP",
+    href: "https://memory-game-bs2i.onrender.com",
+    href_git: "https://github.com/patryk77k/memory-game-react"
+  },
+  {
+    id: 8,
     image: breakpoint,
     title: "Breakpoint",
     category: "APP",
     href: "https://merry-gingersnap-551c99.netlify.app/",
-  },
-  {
-    id: 8,
-    image: memory_game,
-    title: "Memory Game",
-    category: "APP",
-    href: "https://marvelous-dragon-a08229.netlify.app/",
+    href_git: "https://github.com/patryk77k/breakpoint_game"
   },
 ];
 export const projectsNav = [

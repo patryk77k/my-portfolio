@@ -9,6 +9,9 @@ const WorkItems = ({ item }) => {
       <a href={item.href} className="work__button">
         Demo <ibx className="bx bx-right-arrow-alt work__button"></ibx>
       </a>
+      <a href={item.href_git} className="work__button">
+        Github <ibx className="bx bx-right-arrow-alt work__button"></ibx>
+      </a>
       </div>
     
   );
