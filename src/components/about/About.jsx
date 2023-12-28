@@ -15,12 +15,11 @@ const About = () => {
           <Info />
           <p className="about__description">
             Hi! I'm Patryk. I build websites. I specialize in HTML, CSS,
-            JavaScript and React. I specialize in HTML, CSS, JavaScript and
-            React. I am always eager to learn new technologies. I am
-            detail-oriented, focused on delivering high-quality work, and enjoy
-            collaborating with others to create engaging user experiences. I am
-            currently seeking new job opportunities to continue growing as a
-            Front End Developer.
+            JavaScript and React. I am always eager to learn new technologies. I
+            am detail-oriented, focused on delivering high-quality work, and
+            enjoy collaborating with others to create engaging user experiences.
+            I am currently seeking new job opportunities to continue growing as
+            a Front End Developer.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

@@ -46,7 +46,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Frontend Developer</h3>
       <p className="home__description">
-        Hi i am Patryk. I make a website. I specialize in HTML, CSS, JavaScript
+        Hi! I'm Patryk. I build websites. I specialize in HTML, CSS, JavaScript
         and React.
       </p>
       <a href="#contact" className="button button--flex">
